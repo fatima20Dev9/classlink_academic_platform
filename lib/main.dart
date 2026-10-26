@@ -6,7 +6,9 @@ import 'app.dart';
 import 'core/localization/locale_service.dart';
 import 'core/theme/theme_service.dart';
 import 'firebase_options.dart';
-
+//check this one
+//kjhgkhjg
+//jhgf
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
