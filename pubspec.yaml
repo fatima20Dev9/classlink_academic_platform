@@ -1,0 +1,53 @@
+name: classlink_academic_platform
+description: ClassLink — academic platform built with Flutter, GetX, Firebase.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Settings
+  flutter_localizations:        
+    sdk: flutter
+  shared_preferences: ^2.2.2 
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+
+  # State management & routing
+  get: ^4.6.6
+
+  # UI
+  animated_toggle_switch: ^0.8.2
+
+  # file handling
+  file_picker: ^8.1.2
+  url_launcher: ^6.3.0
+  flutter_file_downloader: ^2.1.0
+  dio: ^5.0.0
+  path_provider: ^2.0.0
+
+  # QR code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.2.0
+  
+  
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/hat.png
+    - assets/images/ClassLink_logo.png
